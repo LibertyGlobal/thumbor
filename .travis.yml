@@ -47,6 +47,7 @@ install:
   - cd $TRAVIS_BUILD_DIR && make setup
   - pip install coveralls
   - pip install cairosvg
+  - pip install colorthief
   - wget https://ffmpeg.org/releases/ffmpeg-3.2.4.tar.xz
     -O /tmp/ffmpeg-3.2.4.tar.xz
   - mkdir /tmp/ffmpeg-source
